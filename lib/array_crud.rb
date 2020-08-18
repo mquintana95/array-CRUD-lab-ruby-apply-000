@@ -16,7 +16,11 @@ def add_element_to_start_of_array(array, element)
   array = [1,2,3,4]
   element = "wow"
   a = array
+<<<<<<< HEAD
   a.unshift(element)
+=======
+  a += element
+>>>>>>> b1d25cc8984d223d488156681f9c92a910c406e2
 end
 def remove_element_from_end_of_array(array)
   array = [1,2,3,4,"arrays!"]
@@ -39,6 +43,10 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
+<<<<<<< HEAD
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
   array[-1]
+=======
+  
+>>>>>>> b1d25cc8984d223d488156681f9c92a910c406e2
 end
